@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 34, 32);
+}
+
+h1{
+    margin: 50px 15px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 20px lightgreen,0 0 20px lightgreen
+}
+
+
+
+
+
+.Reloj1{
+    border: 0.5rem solid lightgreen;
+    box-shadow: 0 0 20px lightgreen, 0 0 20px lightgreen;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 3rem;
+    color:white;
+    text-shadow: 0 0 20px lightgreen,0 0 20px lightgreen;
+    
+}
+.Reloj1, .Fecha{
+    color:white;
+    text-shadow: 0 0 20px lightgreen,0 0 20px lightgreen;   
+}
